@@ -44,7 +44,7 @@ export default class Selector extends React.Component<Props> {
     this.updateOptionValues(nextProps)
   }
 
-  componentDidUnmount() {
+  componentWillUnmount() {
     this.optionContext.removeStateChangeListener(this.optionContextUpdate)
     this.optionContext.optionExit(this.props.option.key)
   }
