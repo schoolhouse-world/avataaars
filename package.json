@@ -3,8 +3,8 @@
   "version": "0.0.3",
   "description": "React component for avataaars ",
   "main": "dist/index-cjs.js",
-  "module": "dist/index-ejs.js",
-  "esnext:main": "dist/index-ejs.js",
+  "module": "dist/index-esm.js",
+  "esnext:main": "dist/index-esm.js",
   "types": "dist/types/index.d.ts",
   "keywords": [
     "react",
