@@ -11,6 +11,9 @@
   "files": [
     "dist/**/*"
   ],
+  "scripts": {
+    "prepare": "tsc"
+  },
   "repository": "git@github.com:schoolhouse-world/avataaars.git",
   "author": "Fang-Pen Lin <hello@fangpenlin.com>",
   "license": "MIT",
