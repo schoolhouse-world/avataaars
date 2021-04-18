@@ -18,12 +18,12 @@
     "react": "*"
   },
   "devDependencies": {
-    "@types/react": "^16.0.25",
+    "@types/react": ">=17",
     "prettier": "^2.2.1",
     "typescript": "^2.6.2"
   },
   "dependencies": {
-    "lodash": ">=4.17.11",
-    "prop-types": "^15.6.0"
+    "lodash": ">=4",
+    "prop-types": ">=15"
   }
 }
