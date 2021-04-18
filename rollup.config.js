@@ -4,12 +4,12 @@ export default {
   input: 'src/index.tsx',
   output: [
     {
-      file: 'dist/cjs/index.js',
+      file: 'dist/index-cjs.js',
       format: 'cjs',
       exports: 'named',
     },
     {
-      file: 'dist/es/index.js',
+      file: 'dist/index-esm.js',
       format: 'es',
       exports: 'named',
     },

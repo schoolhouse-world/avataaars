@@ -12,6 +12,7 @@
     "noImplicitReturns": true,
     "declaration": true,
     "outDir": "./dist",
+    "declarationDir": "./dist/types",
     "lib": [
       "es6",
       "dom"
