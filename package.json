@@ -8,6 +8,9 @@
     "react",
     "avatar"
   ],
+  "files": [
+    "dist/**/*"
+  ],
   "repository": "git@github.com:fangpenlin/avataaars.git",
   "author": "Fang-Pen Lin <hello@fangpenlin.com>",
   "license": "MIT",
