@@ -37,7 +37,8 @@ export default class Avatar extends React.Component<Props> {
         viewBox="0 0 264 280"
         version="1.1"
         xmlns="http://www.w3.org/2000/svg"
-        xmlnsXlink="http://www.w3.org/1999/xlink">
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+      >
         <desc>Created with getavataaars.com</desc>
         <defs>
           <circle id={path1} cx="120" cy="120" r="120" />
@@ -50,34 +51,21 @@ export default class Avatar extends React.Component<Props> {
             id={path3}
           />
         </defs>
-        <g
-          id="Avataaar"
-          stroke="none"
-          strokeWidth="1"
-          fill="none"
-          fillRule="evenodd">
-          <g
-            transform="translate(-825.000000, -1100.000000)"
-            id="Avataaar/Circle">
+        <g id="Avataaar" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
+          <g transform="translate(-825.000000, -1100.000000)" id="Avataaar/Circle">
             <g transform="translate(825.000000, 1100.000000)">
               {circle ? (
                 <g
                   id="Circle"
                   strokeWidth="1"
                   fillRule="evenodd"
-                  transform="translate(12.000000, 40.000000)">
+                  transform="translate(12.000000, 40.000000)"
+                >
                   <mask id={mask1} fill="white">
                     <use xlinkHref={'#' + path1} />
                   </mask>
-                  <use
-                    id="Circle-Background"
-                    fill="#E6E6E6"
-                    xlinkHref={'#' + path1}
-                  />
-                  <g
-                    id="Color/Palette/Blue-01"
-                    mask={'url(#' + mask1 + ')'}
-                    fill="#65C9FF">
+                  <use id="Circle-Background" fill="#E6E6E6" xlinkHref={'#' + path1} />
+                  <g id="Color/Palette/Blue-01" mask={'url(#' + mask1 + ')'} fill="#65C9FF">
                     <rect id="🖍Color" x="0" y="0" width="240" height="240" />
                   </g>
                 </g>
@@ -88,11 +76,7 @@ export default class Avatar extends React.Component<Props> {
                 </mask>
               ) : null}
               <g id="Mask" />
-              <g
-                id="Avataaar"
-                strokeWidth="1"
-                fillRule="evenodd"
-                mask={'url(#' + mask2 + ')'}>
+              <g id="Avataaar" strokeWidth="1" fillRule="evenodd" mask={'url(#' + mask2 + ')'}>
                 <g id="Body" transform="translate(32.000000, 36.000000)">
                   <mask id={mask3} fill="white">
                     <use xlinkHref={'#' + path3} />

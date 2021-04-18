@@ -32,15 +32,17 @@ export default class PieceComponent extends React.Component<Props> {
         style={this.props.style}
         width={`${this.props.pieceSize}px`}
         height={`${this.props.pieceSize}px`}
-        viewBox={this.props.viewBox || "0 0 264 280"}
+        viewBox={this.props.viewBox || '0 0 264 280'}
         version="1.1"
         xmlns="http://www.w3.org/2000/svg"
-        xmlnsXlink="http://www.w3.org/1999/xlink">
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+      >
         {this.props.pieceType === 'top' && <Top />}
         {this.props.pieceType === 'clothe' && <Clothe />}
         {this.props.pieceType === 'graphics' && <Graphics maskID="1234" />}
-        {(this.props.pieceType === 'accessories' ||
-          this.props.pieceType === 'accesories') && <Accessories />}
+        {(this.props.pieceType === 'accessories' || this.props.pieceType === 'accesories') && (
+          <Accessories />
+        )}
         {this.props.pieceType === 'facialHair' && <FacialHair />}
         {this.props.pieceType === 'eyes' && <Eyes />}
         {this.props.pieceType === 'eyebrows' && <Eyebrows />}

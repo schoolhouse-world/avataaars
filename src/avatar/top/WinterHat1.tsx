@@ -29,13 +29,9 @@ export default class WinterHat1 extends React.Component {
             width="101.7%"
             height="111.1%"
             filterUnits="objectBoundingBox"
-            id={filter1}>
-            <feOffset
-              dx="0"
-              dy="2"
-              in="SourceAlpha"
-              result="shadowOffsetOuter1"
-            />
+            id={filter1}
+          >
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1" />
             <feColorMatrix
               values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0"
               type="matrix"
@@ -48,14 +44,13 @@ export default class WinterHat1 extends React.Component {
           <use xlinkHref={'#' + path3} />
         </mask>
         <g id="Mask" />
-        <g
-          id="Top/Accessories/Winter-Hat-1"
-          transform="translate(-1.000000, 0.000000)">
+        <g id="Top/Accessories/Winter-Hat-1" transform="translate(-1.000000, 0.000000)">
           <g
             id="hat"
             strokeWidth="1"
             fillRule="evenodd"
-            transform="translate(63.000000, 20.000000)">
+            transform="translate(63.000000, 20.000000)"
+          >
             <path
               d="M1,48 L23.6714286,48 L23.6714286,153.664286 C23.6714286,159.924828 18.5962564,165 12.3357143,165 C6.07517216,165 1,159.924828 1,153.664286 L1,48 Z M116.328571,48 L139,48 L139,153.664286 C139,159.924828 133.924828,165 127.664286,165 C121.403744,165 116.328571,159.924828 116.328571,153.664286 L116.328571,48 Z"
               id="inside"
@@ -68,12 +63,7 @@ export default class WinterHat1 extends React.Component {
             <HatColor maskID={mask2} defaultColor="Red" />
           </g>
           <g id="hat-front">
-            <use
-              fill="black"
-              fillOpacity="1"
-              filter={`url(#${path2})`}
-              xlinkHref={'#' + path2}
-            />
+            <use fill="black" fillOpacity="1" filter={`url(#${path2})`} xlinkHref={'#' + path2} />
             <use fill="#F4F4F4" fillRule="evenodd" xlinkHref={'#' + path2} />
           </g>
           <FacialHair />
