@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { uniqueId } from 'lodash'
+import uniqueId from 'lodash/uniqueId'
 
 import Colors from './Colors'
 import Graphics from './Graphics'

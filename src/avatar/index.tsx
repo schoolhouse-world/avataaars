@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { uniqueId } from 'lodash'
+import uniqueId from 'lodash/uniqueId'
 
 import Accessories from './top/accessories'
 import Clothe from './clothes'

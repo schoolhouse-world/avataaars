@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { uniqueId } from 'lodash'
+import uniqueId from 'lodash/uniqueId'
 
 export default class BlazerShirt extends React.Component {
   static optionValue = 'BlazerShirt'
