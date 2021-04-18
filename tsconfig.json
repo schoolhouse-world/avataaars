@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "module": "commonjs",
+    "module": "esnext",
     "moduleResolution": "node",
     "jsx": "react",
     "skipLibCheck": true,
@@ -12,7 +12,13 @@
     "noImplicitReturns": true,
     "declaration": true,
     "outDir": "./dist",
-    "lib": ["es6", "dom"]
+    "lib": [
+      "es6",
+      "dom"
+    ]
   },
-  "types": ["jest", "node"]
+  "types": [
+    "jest",
+    "node"
+  ]
 }
