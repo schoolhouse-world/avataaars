@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 
 export default class Cry extends React.Component {
   static optionValue = 'Cry'

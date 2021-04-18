@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 
 import BeardLight from './BeardLight'
 import BeardMajestic from './BeardMajestic'

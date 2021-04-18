@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 
 import Eyebrow from './eyebrow'
 import Eyes from './eyes'

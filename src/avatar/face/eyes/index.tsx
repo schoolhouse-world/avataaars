@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 
 import Close from './Close'
 import Cry from './Cry'

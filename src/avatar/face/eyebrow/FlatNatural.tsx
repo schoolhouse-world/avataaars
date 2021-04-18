@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 
 export default class FlatNatural extends React.Component {
   static optionValue = 'FlatNatural'

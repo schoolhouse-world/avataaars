@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 
 import Angry from './Angry'
 import AngryNatural from './AngryNatural'

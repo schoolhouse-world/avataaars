@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 
 import BlazerShirt from './BlazerShirt'
 import BlazerSweater from './BlazerSweater'

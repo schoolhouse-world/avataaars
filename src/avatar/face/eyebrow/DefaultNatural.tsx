@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 
 export default class DefaultNatural extends React.Component {
   static optionValue = 'DefaultNatural'
