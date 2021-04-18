@@ -19,14 +19,10 @@ The core React component for [Avataaars Generator](https://getavataaars.com/) de
 
 First, you need to install the avataaars component package, here you run
 
-```
-yarn add avataaars
-```
-
-or
-
-```
-npm install avataaars --save
+```bash
+yarn add @schoolhouse/avatars
+# OR
+npm install @schoolhouse/avatars
 ```
 
 if you are using npm. Then, in your React app, import the Avataaar component and put it where you
@@ -34,7 +30,7 @@ like it to be, for example
 
 ```jsx
 import React from 'react'
-import Avatar from 'avataaars'
+import Avatar from '@schoolhouse/avatars'
 
 export default class MyComponent extends React.Component {
   render() {
@@ -64,7 +60,7 @@ To showcase individual pieces of the avatar you can use the Piece component, for
 
 ```jsx
 import React from 'react'
-import { Piece } from 'avataaars'
+import { Piece } from '@schoolhouse/avatars'
 
 export default class MyComponent extends React.Component {
   render() {
