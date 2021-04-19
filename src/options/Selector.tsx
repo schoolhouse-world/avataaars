@@ -40,7 +40,7 @@ export default class Selector extends React.Component<Props> {
     }
   }
 
-  componentWillUpdate(nextProps: Props & { children?: React.ReactNode }) {
+  UNSAFE_componentWillUpdate(nextProps: Props & { children?: React.ReactNode }) {
     this.updateOptionValues(nextProps)
   }
 
@@ -62,7 +62,10 @@ export default class Selector extends React.Component<Props> {
   }
 
   private optionContextUpdate = () => {
-    this.forceUpdate()
+    if (typeof window !== 'undefined') {
+      // Only force-update in browser, not in SSR
+      this.forceUpdate()
+    }
   }
 
   private updateOptionValues(nextProps?: Props & { children?: React.ReactNode }) {
