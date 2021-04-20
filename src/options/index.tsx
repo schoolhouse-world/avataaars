@@ -69,6 +69,11 @@ export const SkinOption = new Option({
   label: '🎨 Skin',
 })
 
+export const BackgroundColorOption = new Option({
+  key: 'backgroundColor',
+  label: '🎨 Background',
+})
+
 export const allOptions = [
   TopOption,
   AccessoriesOption,
@@ -83,4 +88,5 @@ export const allOptions = [
   EyebrowOption,
   MouthOption,
   SkinOption,
+  BackgroundColorOption,
 ]

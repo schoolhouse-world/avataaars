@@ -6,6 +6,7 @@ import Clothe from './clothes'
 import Face from './face'
 import Skin from './Skin'
 import Top from './top'
+import Background from './Background'
 
 export enum AvatarStyle {
   Circle = 'Circle',
@@ -50,6 +51,7 @@ export default class Avatar extends React.Component<Props> {
             id={path3}
           />
         </defs>
+        <Background />
         <g id="Avataaar" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
           <g transform="translate(-825.000000, -1100.000000)" id="Avataaar/Circle">
             <g transform="translate(825.000000, 1100.000000)">
